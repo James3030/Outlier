@@ -7,7 +7,9 @@ number = 8 \
 
 if number > upper_limit: \
   outlier = True \ 
+  
 if number < lower_limit:\ 
   outlier = True \ 
+  
 if outlier == True: \
   print(f"{number} is an outlier") \
